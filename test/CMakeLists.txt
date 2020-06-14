@@ -23,4 +23,6 @@ add_executable(${PROJ_NAME}
 
 target_link_libraries(${PROJ_NAME}
   ${GTEST_BOTH_LIBRARIES}
+  ${GMock_LIBRARY}
+  ${GMockMain_LIBRARY}
 )

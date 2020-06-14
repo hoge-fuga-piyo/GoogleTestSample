@@ -8,6 +8,10 @@ enable_testing()
 find_package(GTest REQUIRED)
 include_directories(${GTEST_INCLUDE_DIRS})
 
+# GMock
+find_library(GMock_LIBRARY NAMES gmock)
+find_library(GMockMain_LIBRARY NAMES gmock_main)
+
 ###############################
 # Sources
 ###############################
